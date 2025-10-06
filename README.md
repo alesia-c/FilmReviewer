@@ -8,11 +8,6 @@ Below I have provided two demo videos and some screenshots.
 
 
 
-https://github.com/user-attachments/assets/1b36ba0f-e025-4aa7-a61d-6f5430e1a802
-
-
-
-https://github.com/user-attachments/assets/0ce97bd1-0cc4-4c9e-b17f-360c06531f2e
 <img width="1420" height="813" alt="Screenshot 2025-07-30 at 18 07 32" src="https://github.com/user-attachments/assets/e6226f7f-b5d7-4564-ba39-71b5a8745ca2" />
 <img width="1428" height="817" alt="Signup" src="https://github.com/user-attachments/assets/1508f1af-20a9-4f47-9102-0fab8e6dd0d1" />
 <img width="1416" height="785" alt="Screenshot 2025-07-30 at 18 06 15" src="https://github.com/user-attachments/assets/a70ea56f-a375-4533-b8d0-25701cade449" />
