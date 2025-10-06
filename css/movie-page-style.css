@@ -1,0 +1,237 @@
+.info-container {
+    margin: 1% 5% 1% 5%;
+}
+
+.info-container h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 0px;
+    padding-bottom: 0.5rem;
+    color: #fffffe;
+}
+
+.info-container p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #d3d1d1;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info p,
+.info span {
+    margin: 0;
+}
+
+.trailer {
+    width: 100%;
+    height: fit-content;
+}
+
+.trailer iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.description {
+    margin: 2% 5%;
+    color: #d3d1d1;
+    font-size: 1.25rem;
+}
+
+.add-review {
+    background-color: #16161a;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5% 5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: x-large;
+}
+
+.rating-container button {
+    margin-left: auto;
+}
+
+textarea {
+    width: 98%;
+    height: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #d3d1d1;
+    font-size: medium;
+}
+
+.reviews {
+    margin-bottom: 5%;
+}
+
+.reviews h1 {
+    text-align: center;
+    color: #fffffe;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+
+.review-container {
+    background-color: #16161a;
+    margin: 2% 5%;
+    padding: 1% 1%;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px -20px rgba(5, 5, 5, 0.24);
+
+}
+
+.review-container img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 9999px;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.review-user-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.username {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.date {
+    margin-right: 0%;
+    font-size: 0.9em;
+    color: #d3d1d1;
+}
+
+.review-rating {
+    color: #2cb67d;
+}
+
+.review-description {
+    margin-left: 4rem;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+
+
+.menu {
+    display: inline-block;
+    text-align: right;
+}
+
+.menu button {
+    background-color: #16161a;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: larger;
+}
+
+.menu a {
+    display: block;
+    color: #fffffe;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.menu .items {
+    display: none;
+    position: relative;
+    background-color: #242629;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.16);
+}
+
+.menu:hover .items {
+    display: block;
+}
+
+.menu:hover button {
+    background-color: #242629;
+}
+
+.menu a:hover {
+    background-color: #242629;
+    color: #f6f0f0;
+}
+
+.cont {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0%;
+    margin-left: auto;
+}
+
+
+
+/* popup */
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Dim background */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal.show {
+    display: flex;
+}
+
+.modal-content {
+    background: #242629;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+form label {
+    display: block;
+    margin: 8px 0;
+}
+
+#submit-report {
+    display: block;
+    margin: 2rem auto 0 auto; 
+    cursor: pointer;
+}

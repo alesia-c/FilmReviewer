@@ -1,0 +1,115 @@
+.reports {
+    margin: 2.5% 0%;
+    background: #242629;
+    overflow-y: scroll;
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.reports td:nth-child(1),
+th:nth-child(1) {
+    width: 5%;
+}
+
+.reports td:nth-child(2),
+th:nth-child(2) {
+    width: 5%;
+}
+
+.reports td:nth-child(3),
+th:nth-child(3) {
+    width: 35%;
+}
+
+.reports td:nth-child(5),
+th:nth-child(5) {
+    width: 35%;
+}
+
+.reports td:nth-child(5) {
+    text-align: left;
+}
+
+.reports td:nth-child(7),
+th:nth-child(7) {
+    width: 20%;
+}
+
+.reports th {
+    background-color: #16161a;
+    position: sticky;
+    height: 2rem;
+    padding: 0.5rem;
+    font-size: larger;
+    font-weight: 500;
+    position: sticky;
+    top: 0px;
+}
+
+.reports td {
+    word-wrap: break-word;
+    height: 2rem;
+    padding: 0.5rem;
+}
+
+
+/* From Uiverse.io by adamgiebl */
+.cyberpunk-checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #2cb67d;
+    border-radius: 5px;
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.cyberpunk-checkbox:before {
+    content: "";
+    background-color: #2cb67d;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.cyberpunk-checkbox:checked:before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.hide-col {
+    display: none;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0.5rem;
+}
+
+.profile-pic {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    border-radius: 50%;
+    /* margin-left: 2rem; */
+    margin-right: 0.5rem;
+    display: block;
+}
+
+.action-buttons{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}

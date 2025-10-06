@@ -1,0 +1,94 @@
+.part-1 {
+    min-width: 100%;
+    height: auto;
+}
+
+.part-1 img {
+    vertical-align: middle;
+    min-width: 100%;
+    height: 45rem;
+    opacity: 0.25;
+}
+
+.part-1 h1 {
+    text-align: center;
+    font-weight: 200;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fffffe;
+    font-size: 3rem;
+    margin: 0
+}
+
+.part-2 {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+}
+
+.part-2 h3 {
+    position: relative;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.mission {
+    display: flex;
+    padding-top: 5rem;
+}
+
+.mission-item {
+    padding: 2rem;
+}
+
+.mission-item h3 {
+    color: #7f5af0;
+    padding-top: 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+.mission-item p {
+    text-align: left;
+    font-size: 20px;
+    padding-left: 2rem;
+}
+
+.vision {
+    display: flex;
+    background-color: #16161a;
+    padding: 10rem 5rem;
+}
+
+.vision h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+.vision p {
+    text-align: left;
+    font-size: 20px;
+    margin-right: 2rem;
+}
+
+.values {
+    padding: 5rem 5rem;
+}
+
+.values h3 {
+    color: #7f5af0;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    font-weight: 400;
+}
+
+.values p {
+    margin-bottom: 2rem;
+    font-size: 20px;
+}

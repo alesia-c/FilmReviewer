@@ -1,0 +1,205 @@
+section {
+    margin: 5% 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    margin: auto;
+    width: 500px;
+    background: linear-gradient(#16161a, #16161a) padding-box,
+        linear-gradient(145deg, transparent 35%, #7f5af0, #2cb67d) border-box;
+    border: 2px solid transparent;
+    padding: 32px 24px;
+    padding-top: 2rem;
+    font-size: 14px;
+    font-family: inherit;
+    color: #fffffe;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.actions {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+input {
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: #fffffe;
+    font-family: inherit;
+    background-color: transparent;
+    border: 1px solid #94a1b2;
+}
+
+input:focus {
+    outline: none;
+    border-color: #7f5af0;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px 16px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border-color: #2cb67d;
+    color: #fffffe;
+    font-family: inherit;
+    background-color: transparent;
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+#add {
+    background-color: #2cb67d;
+}
+
+#delete {
+    background-color: rgb(193, 37, 37);
+    border-color: rgb(193, 37, 37);
+}
+
+#update {
+    background-color: #7f5af0;
+    border-color: #7f5af0;
+}
+
+.table-wrapper {
+    background: linear-gradient(#16161a, #16161a) padding-box,
+        linear-gradient(180deg, transparent 35%, #2cb67d, #7f5af0) border-box;
+    border: 2px solid transparent;
+    border-radius: 16px;
+    overflow-y: scroll;
+    height: fit-content;
+    max-height: 61rem;
+    margin-left: 2rem;
+}
+
+.table {
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+}
+
+/* makes the scrollbar background transparent */
+:root {
+    scrollbar-color: gray transparent;
+}
+
+.table td,
+th {
+    word-wrap: break-word;
+}
+
+.table th {
+    background-color: #242629;
+    height: 2rem;
+    padding: 0.5rem;
+    font-size: larger;
+    font-weight: 500;
+    position: sticky;
+    top: 0px;
+}
+
+.table td:nth-child(1),
+th:nth-child(1) {
+    width: 3rem;
+    white-space: nowrap;
+}
+
+.table td:nth-child(2),
+th:nth-child(2) {
+    width: 20rem;
+}
+
+.table tr:hover {
+    background-color: #242629;
+}
+
+.table img {
+    width: 5rem;
+}
+
+.search {
+    width: 93%;
+    font-size: 1.5rem;
+    border: 0px;
+}
+
+#all {
+    margin: 0% 0%;
+}
+
+.all {
+    margin: 0% 0%;
+    background: #242629;
+    overflow-y: scroll;
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.all th {
+    background-color: #16161a;
+    position: sticky;
+    height: 2rem;
+    padding: 0.5rem;
+    font-size: larger;
+    font-weight: 500;
+    position: sticky;
+    top: 0px;
+}
+
+.all img {
+    width: 5rem;
+}
+
+.all td,
+th {
+    word-wrap: break-word;
+}
+
+.all tr:hover {
+    background-color: #16161a;
+}
+
+.all td:nth-child(1),
+th:nth-child(1) {
+    width: 3rem;
+    white-space: nowrap;
+}
+
+.all td:nth-child(2),
+th:nth-child(2) {
+    width: 15rem;
+}
+
+.all td:nth-child(3),
+th:nth-child(3) {
+    width: 5rem;
+}
+
+.all td:nth-child(4),
+th:nth-child(4) {
+    width: 15rem;
+}
+
+.all td:nth-child(5),
+th:nth-child(5),
+td:nth-child(6),
+th:nth-child(6) {
+    width: 6rem;
+}
+
+#plot {
+    text-align: left;
+}
