@@ -7,6 +7,14 @@ Below I have provided two demo videos and some screenshots.
 <br>
 
 
+https://github.com/user-attachments/assets/5e41c35b-0a93-4273-ad74-14bf57581ac7
+
+
+
+
+https://github.com/user-attachments/assets/8dd51be2-9474-460d-a58d-1b6ed5ce1d5f
+
+
 
 <img width="1420" height="813" alt="Screenshot 2025-07-30 at 18 07 32" src="https://github.com/user-attachments/assets/e6226f7f-b5d7-4564-ba39-71b5a8745ca2" />
 <img width="1428" height="817" alt="Signup" src="https://github.com/user-attachments/assets/1508f1af-20a9-4f47-9102-0fab8e6dd0d1" />
